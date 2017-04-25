@@ -1,2 +1,2 @@
-# vs-oflinstall-cleaner
-Visual Studio Offline Cleaner
+# Use
+vs-oflinstall-cleaner [path]
