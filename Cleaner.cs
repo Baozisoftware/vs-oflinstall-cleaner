@@ -130,6 +130,9 @@ namespace vs_oflinstall_cleaner
                 if (reg.IsMatch(item))
                     File.Delete(item);
             }
+            path = $@"{path}\Archive";
+            if (Directory.Exists(path))
+                Directory.Delete(path, true);
         }
     }
 
